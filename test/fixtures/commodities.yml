@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  import_price: 1.5
+  export_price: 1.5
+  import_count: 1
+  export_count: 1
+
+two:
+  name: MyString
+  import_price: 1.5
+  export_price: 1.5
+  import_count: 1
+  export_count: 1
