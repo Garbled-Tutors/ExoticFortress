@@ -1,0 +1,15 @@
+Allow choosing commodity types (animals, food, raw materials)
+
+
+Class Goods: ID, Name
+Class Player: ID, Name
+Class Inventory: ID, PlayerID, GoodID, quantity
+Class GoodValue: ID, GoodID, PlayerID, buyvalue, sellvalue
+
+Tests
+  Inventory should return the number of goods owned by player
+	Inventory AddGoods should increase the number of goods owned by player
+	Inventory SubGoods should decrease the number of goods owned by player
+	Inventory SubGoods should never decrease the number of goods below zero
+	GoodValue should return the cost to buy a good, and the cost to sell a good
+
